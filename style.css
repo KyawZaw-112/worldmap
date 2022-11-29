@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=PT+Serif:wght@700&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #282828;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: -153px;*/
+}
+
+.info-place {
+    cursor: default;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.head {
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+
+}
+
+.current-country {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#country {
+    font-weight: 700;
+    color: #0f0;
+}
+
+.map {
+    width: 900px;
+}
+
+svg {
+    width: 100%;
+    fill: aquamarine;
+}
+
+svg path {
+    cursor: pointer;
+}
+
+svg path:hover {
+    fill: #0066ff;
+}
